@@ -185,14 +185,20 @@ body {
   padding: 10px 32px;
 }
 /* !!!!!!!PLUSES!!!!!! */
-.pluses-item {
-  height: 251px;
+.svg-container {
+  height: 120px;
   width: 270px;
+  background-color: var(--buttons-color-portfolio);
+  margin-bottom: 40px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pluses-icon {
   height: 70px;
   width: 70px;
-  background-color: var(--buttons-color-portfolio);
+
   background-size: cover;
 }
 
