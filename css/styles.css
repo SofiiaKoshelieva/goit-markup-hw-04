@@ -373,12 +373,16 @@ body {
   fill: var(--button-color);
 }
 /* FOOTER */
-
+.footer-container {
+  display: flex;
+}
+.footer-contacts {
+  margin-right: 70px;
+}
 .footer {
   background-color: var(--bg-footer-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  display: block;
 }
 .footer-logo {
   color: var(--accent-color);
@@ -420,7 +424,9 @@ body {
   color: var(--accent-color);
 }
 /* !!!!!!!!!JOIN-footer!!!!!!!*/
-
+.join {
+  margin-top: 12px;
+}
 .join-title {
   font-weight: 700;
   font-size: 14px;
